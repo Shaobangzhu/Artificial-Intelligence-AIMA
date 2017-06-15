@@ -1,2 +1,4 @@
 # Decision-Network
 A decision network uses a Directed Acyclic Graph(DAG) to represent a set of random variables and their conditional dependencies within a probabilistic model, while a decision network extends the Bayesian Network to include decision nodes and utility nodes
+
+I implemented the Alpha-Beta algorithm (Figure 5.7, AIMA 3rd edition) to determine the depth-bounded minimax values of given game positions. The program will take the input from the file input.txt, and print out its output to the file output.txt. Each input of the program contains a game position (including the board state and the player to move) and a search cut-off depth D, and it should output the corresponding information after running an Alpha-Beta search of depth D. That is, the leaf nodes of the corresponding game tree should be either a game position after exactly D moves (alternating between Black and White) or an end-game position after less than D moves.
